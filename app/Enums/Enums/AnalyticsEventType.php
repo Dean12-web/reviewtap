@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Enums\Enums;
+
+enum AnalyticsEventType: string
+{
+    case CARD_VIEW = 'CARD_VIEW';
+    case FEEDBACK_STARTED = 'FEEDBACK_STARTED';
+    case FEEDBACK_SUBMITTED = 'FEEDBACK_SUBMITTED';
+    case GOOGLE_CLICKED = 'GOOGLE_CLICKED';
+    case WHATSAPP_CLICKED = 'WHATSAPP_CLICKED';
+    case FOLLOW_UP_CREATED = 'FOLLOW_UP_CREATED';
+    case FOLLOW_UP_RESOLVED = 'FOLLOW_UP_RESOLVED';
+}
